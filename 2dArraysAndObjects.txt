@@ -53,10 +53,12 @@ var bear = {
 	height: "5 cm",
 	favoriteFood: "marshmallows"
 }; 
+
 for (var key in bear){
-    bear += " " + key;
+    console.log(bear[key]);
 }
 
-4. Access the object in the previous question to display "Grizzly Bear loves marshmallows" as a string concatenation.
 
+4. Access the object in the previous question to display "Grizzly Bear loves marshmallows" as a string concatenation.
+console.log(bear.firstName + " " + bear.lastName + " loves marshmallows")
 
